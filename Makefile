@@ -10,4 +10,4 @@ $(EXEC): $(OBJS)
 	$(CC) $(LDFLAGS) -o $@ $(OBJS) $(LDLIBS)
         
 clean:
- 	-rm -f  *.elf *.gdb *.o $(EXEC)
+	-rm -f  *.elf *.gdb *.o $(EXEC)
